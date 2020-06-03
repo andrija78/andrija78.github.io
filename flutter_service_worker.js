@@ -47,14 +47,14 @@ const RESOURCES = {
 "assets/assets/SPADE_TRICA.jpg": "61270b986dd2678a79b6f980c3c36ac0",
 "assets/FontManifest.json": "01700ba55b08a6141f33e168c4a6c22f",
 "assets/fonts/MaterialIcons-Regular.ttf": "56d3ffdef7a25659eab6a68a3fbfaf16",
-"assets/LICENSE": "e21357896107248f826ee4efb1a95d6d",
+"assets/LICENSE": "6ce1e594707fabbae91dd347018c0ce7",
 "assets/packages/cupertino_icons/assets/CupertinoIcons.ttf": "115e937bb829a890521f72d2e664b632",
 "favicon.png": "5dcef449791fa27946b3d35ad8803796",
 "icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
 "index.html": "fc1a19916789b5f016606e19d102b495",
 "/": "fc1a19916789b5f016606e19d102b495",
-"main.dart.js": "56736d953781cfabcd2f235439332853",
+"main.dart.js": "75c61430b5c8fcc4cec8866ecaa02860",
 "manifest.json": "34ce20b934ade9c43d4c1a9140614d9b"
 };
 
