@@ -50,14 +50,14 @@ const RESOURCES = {
 "assets/assets/SPADE_TRICA.jpg": "61270b986dd2678a79b6f980c3c36ac0",
 "assets/FontManifest.json": "01700ba55b08a6141f33e168c4a6c22f",
 "assets/fonts/MaterialIcons-Regular.ttf": "56d3ffdef7a25659eab6a68a3fbfaf16",
-"assets/NOTICES": "14bfe7993183dd44bb1b1953042759e0",
+"assets/NOTICES": "c835eb014962aa7ddbe62ed5c32ec827",
 "assets/packages/cupertino_icons/assets/CupertinoIcons.ttf": "115e937bb829a890521f72d2e664b632",
 "favicon.png": "5dcef449791fa27946b3d35ad8803796",
 "icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
 "index.html": "fc1a19916789b5f016606e19d102b495",
 "/": "fc1a19916789b5f016606e19d102b495",
-"main.dart.js": "536194e6346cb93985f4056ed0dcf4ba",
+"main.dart.js": "7ab0e3e6117682cd67218087d487d9d1",
 "manifest.json": "34ce20b934ade9c43d4c1a9140614d9b"
 };
 
