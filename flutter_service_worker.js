@@ -3,7 +3,7 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "assets/AssetManifest.json": "8b7035f62891046483067aba4ccd023b",
+  "assets/AssetManifest.json": "03fdd9c4168e2b39d41252a4cead4d48",
 "assets/assets/back-r.jpg": "52a184995093bf66be65c8af9aa1ceb7",
 "assets/assets/back.jpg": "bc94f9b0b6af033fca94447afc30bb0b",
 "assets/assets/BACK_BACK.jpg": "bc94f9b0b6af033fca94447afc30bb0b",
@@ -50,6 +50,25 @@ const RESOURCES = {
 "assets/assets/SPADE_TRICA.jpg": "61270b986dd2678a79b6f980c3c36ac0",
 "assets/FontManifest.json": "01700ba55b08a6141f33e168c4a6c22f",
 "assets/fonts/MaterialIcons-Regular.ttf": "56d3ffdef7a25659eab6a68a3fbfaf16",
+"assets/lib/mcts_js/src/common/appSync.js": "923e15080a4d7692fb200b16ada1c6a3",
+"assets/lib/mcts_js/src/common/convert.js": "1e5c2a06471eefc257563d51d411162a",
+"assets/lib/mcts_js/src/common/monte-carlo-2.js": "463e548a7039be8edb7a43fa67519721",
+"assets/lib/mcts_js/src/common/monte-carlo-3.js": "2ba8972d4529b1912773b19fb2520fd5",
+"assets/lib/mcts_js/src/common/monte-carlo-k3.js": "d21befe15f86140164cdd5a520f3f154",
+"assets/lib/mcts_js/src/common/monte-carlo-node-2.js": "82b6650f4f5789a9af8c17b86de87b7d",
+"assets/lib/mcts_js/src/common/monte-carlo-node-3.js": "d6f46fd79eae4ab79bd7ea4bd0b6bcc9",
+"assets/lib/mcts_js/src/common/monte-carlo-node-k3.js": "8ebeaa5d243955a9dc95c97aed50feb8",
+"assets/lib/mcts_js/src/common/monte-carlo-node.js": "8ebeaa5d243955a9dc95c97aed50feb8",
+"assets/lib/mcts_js/src/common/monte-carlo.js": "dea852bcd9e98138077c5b04e9296c12",
+"assets/lib/mcts_js/src/event.json": "97f8e847998c21d4cbabcc1ef4b2e97d",
+"assets/lib/mcts_js/src/index.js": "44d1d7d7a588755e9abdc956e60e1973",
+"assets/lib/mcts_js/src/package-lock.json": "28f3fbb74948ca149458ba12daaa2d68",
+"assets/lib/mcts_js/src/package.json": "d620b4a49e3265fe405b91be22248c7c",
+"assets/lib/mcts_js/src/random/index.js": "e736cbd91cdff39dc8a61b330bf89189",
+"assets/lib/mcts_js/src/treseta4/game-treseta4.js": "0dd016af0d9c0748820923864f56174c",
+"assets/lib/mcts_js/src/treseta4/index.js": "41296ed1dcd6a273578dbe7a8ef47d51",
+"assets/lib/mcts_js/src/treseta4/play-treseta4.js": "d4a9d34e3bcdb6c6698901913c4825c7",
+"assets/lib/mcts_js/src/treseta4/state-treseta4.js": "ddd0f458182f850903f7978057b36a39",
 "assets/lib/mcts_js/worker.js": "ccaed34f64b3343f7501fb922023c8fc",
 "assets/NOTICES": "7d90fa3e2a2eeb116107812b156da179",
 "assets/packages/cupertino_icons/assets/CupertinoIcons.ttf": "115e937bb829a890521f72d2e664b632",
@@ -58,7 +77,7 @@ const RESOURCES = {
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
 "index.html": "fc1a19916789b5f016606e19d102b495",
 "/": "fc1a19916789b5f016606e19d102b495",
-"main.dart.js": "e3c745391205b18f9eb26f5bc4f1407c",
+"main.dart.js": "f6bcd4bc1327022665ec3160472b66c1",
 "manifest.json": "34ce20b934ade9c43d4c1a9140614d9b"
 };
 
