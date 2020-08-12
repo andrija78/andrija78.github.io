@@ -1,7 +1,7 @@
 'use strict'
-const util = require('util'); //for debugging only
-const State = require('./state-treseta4.js');
-const Play = require('./play-treseta4.js');
+import util from 'util'; //for debugging only
+import State from './state-treseta4.js';
+import Play from './play-treseta4.js';
 
 
 /** Class representing the game. */
@@ -403,4 +403,4 @@ class Game_treseta4 {
   }
 }
 
-module.exports = Game_treseta4;
+export default Game_treseta4;

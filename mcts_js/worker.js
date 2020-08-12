@@ -1,4 +1,4 @@
-const mcts = require('src/index'); //for debugging only
+import mcts from './src/index'; //for debugging only
 
 onmessage = function(event) {
 

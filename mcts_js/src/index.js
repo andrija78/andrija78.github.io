@@ -1,4 +1,4 @@
-const util = require('util'); //for debugging only
+import util from 'util'; //for debugging only
 //expecting
 // event={
 //  state: state,
@@ -6,12 +6,12 @@ const util = require('util'); //for debugging only
 //}
 
 
-const randomSolver=require('./random/index');
-const treseta4Solver=require('./treseta4/index');
+import randomSolver from './random/index';
+import treseta4Solver from './treseta4/index';
 
-const convertToCard=require('./common/convert');
+import convertToCard from './common/convert';
 
-exports.handler = async function (event, context) {
+export async function handler (event, context) {
     
     switch(event.algorithm) {
         
@@ -37,4 +37,4 @@ exports.handler = async function (event, context) {
             return dartSolverNative(event);
     }
     
-};
+}

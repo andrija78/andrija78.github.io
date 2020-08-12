@@ -1,4 +1,4 @@
-const util = require('util'); //for debugging only
+import util from 'util'; //for debugging only
 
 const DEFAULT_MCTS_TIMEOUT=process.env.DEFAULT_MCTS_TIMEOUT || 5;
 
@@ -10,15 +10,15 @@ if (isLambda) {
 }
 
 
-const Game = require('./game-treseta4');
-const State = require('./state-treseta4');
-const Play = require('./play-treseta4');
-const convertToCard=require('../common/convert');
+import Game from './game-treseta4';
+import State from './state-treseta4';
+import Play from './play-treseta4';
+import convertToCard from '../common/convert';
 
-const MonteCarlo1 = require('../common/monte-carlo');
-const MonteCarlo2 = require('../common/monte-carlo-2');
-const MonteCarlo3 = require('../common/monte-carlo-3');
-const MonteCarloK3 = require('../common/monte-carlo-k3');
+import MonteCarlo1 from '../common/monte-carlo';
+import MonteCarlo2 from '../common/monte-carlo-2';
+import MonteCarlo3 from '../common/monte-carlo-3';
+import MonteCarloK3 from '../common/monte-carlo-k3';
 
 async function solver(event, context) {
     
@@ -97,4 +97,4 @@ async function solver(event, context) {
     return ret;
 };
 
-module.exports = solver;
+export default solver;

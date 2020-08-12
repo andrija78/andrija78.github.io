@@ -1,6 +1,6 @@
 'use strict'
-const util = require('util'); //for debugging only
-const MonteCarloNode = require('./monte-carlo-node-k3.js');
+import { inspect } from 'util'; //for debugging only
+import MonteCarloNode from './monte-carlo-node-k3.js';
 
 /**
  * Class representing the Monte Carlo search tree.
@@ -85,7 +85,7 @@ class MonteCarlo {
 
     // If not all children are expanded, not enough information
     if (this.nodes.get(state.hash()).isFullyExpanded() === false) {
-      console.log(util.inspect(state, {showHidden: false, depth: null}));
+      console.log(inspect(state, {showHidden: false, depth: null}));
       throw new Error("Not enough information!");
     }
 
@@ -268,4 +268,4 @@ class MonteCarlo {
   }
 }
 
-module.exports = MonteCarlo
+export default MonteCarlo

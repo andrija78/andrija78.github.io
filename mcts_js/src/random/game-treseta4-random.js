@@ -1,6 +1,6 @@
 'use strict'
 
-const Play = require('./play-treseta4-random.js');
+import Play from './play-treseta4-random.js';
 
 
 
@@ -33,4 +33,4 @@ class Game_treseta4_random {
 
 }
 
-module.exports = Game_treseta4_random;
+export default Game_treseta4_random;

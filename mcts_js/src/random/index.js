@@ -1,9 +1,9 @@
-const util = require('util'); //for debugging only
-const TRESETA4_RANDOM_GAME=require('./game-treseta4-random');
-const ALG_RANDOM=require('./random');
-const Play_C4 = require('./play-treseta4-random');
+import util from 'util'; //for debugging only
+import TRESETA4_RANDOM_GAME from './game-treseta4-random';
+import ALG_RANDOM from './random';
+import Play_C4 from './play-treseta4-random';
 
-const convertToCard=require('../common/convert');
+import convertToCard from '../common/convert';
 
 const isLambda = !!(process.env.LAMBDA_TASK_ROOT || false);
 var appSync;
@@ -31,4 +31,4 @@ async function solver(event, context) {
     return ret;
 };
 
-module.exports = solver;
+export default solver;
