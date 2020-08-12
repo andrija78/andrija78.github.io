@@ -58467,7 +58467,7 @@ E.oI.prototype={
 KA:function(a){var s,r=$.akA()||$.akB(),q=t.X
 if(r){a.toString
 U.adX().$2$2(R.ajT(),C.r.bN(E.nd(a)),q,t.k).bb(new E.VD(this,a),t.ZT)}else{P.cW("assuming web here")
-s=new Worker("../mcts_js/worker.js")
+s=new Worker("worker.js")
 W.bu(s,"message",new E.VE(this,a),!1,t.Iy)
 C.H6.a4j(s,C.r.bN(P.A(["algorithm","mcts","state",R.ahC(R.ajC(a))],q,t._)))}},
 es:function(a,b,c,d,e){return this.a4i(a,b,c,d,e)},
@@ -59987,7 +59987,7 @@ if(s.d){$.aU.z$.push(new E.a4Z(a))
 return M.fX(E.fv(q,q,q,L.ai("Redirecting...",q,q,q,q,q,q)),q,q)}r=F.bw(a,!1).a
 s.a.toString
 s=r.a
-return M.fX(E.fv(q,q,q,L.ai("Treseta. Version: 0.5.0+10",q,q,q,q,q,q)),new T.cB(C.u,q,q,T.lF(H.a([M.bC(q,D.mB(L.ai("Kreiraj racun",q,q,q,q,A.dc(q,q,C.j,q,q,q,q,q,q,q,q,q,q,q,q,q,!0,q,q,q,q,q,q),q),C.a6,new E.a5_(a)),q,q,q,q,q,q,new V.ag(20,0,20,20),s),M.bC(q,D.mB(L.ai("Potvrdi racun",q,q,q,q,A.dc(q,q,C.j,q,q,q,q,q,q,q,q,q,q,q,q,q,!0,q,q,q,q,q,q),q),C.a6,new E.a50(a)),q,q,q,q,q,q,new V.ag(20,0,20,20),s),M.bC(q,D.mB(L.ai("Prijava",q,q,q,q,A.dc(q,q,C.j,q,q,q,q,q,q,q,q,q,q,q,q,q,!0,q,q,q,q,q,q),q),C.a6,new E.a51(a)),q,q,q,q,q,q,new V.ag(20,0,20,20),s),M.bC(q,D.mB(L.ai("Igraj...",q,q,q,q,A.dc(q,q,C.j,q,q,q,q,q,q,q,q,q,q,q,q,q,!0,q,q,q,q,q,q),q),C.a6,new E.a52(a)),q,q,q,q,q,q,new V.ag(20,0,20,20),s)],t.t),C.aG,C.eI,C.b6),q),q)}}
+return M.fX(E.fv(q,q,q,L.ai("Treseta. Version: 0.5.0+11",q,q,q,q,q,q)),new T.cB(C.u,q,q,T.lF(H.a([M.bC(q,D.mB(L.ai("Kreiraj racun",q,q,q,q,A.dc(q,q,C.j,q,q,q,q,q,q,q,q,q,q,q,q,q,!0,q,q,q,q,q,q),q),C.a6,new E.a5_(a)),q,q,q,q,q,q,new V.ag(20,0,20,20),s),M.bC(q,D.mB(L.ai("Potvrdi racun",q,q,q,q,A.dc(q,q,C.j,q,q,q,q,q,q,q,q,q,q,q,q,q,!0,q,q,q,q,q,q),q),C.a6,new E.a50(a)),q,q,q,q,q,q,new V.ag(20,0,20,20),s),M.bC(q,D.mB(L.ai("Prijava",q,q,q,q,A.dc(q,q,C.j,q,q,q,q,q,q,q,q,q,q,q,q,q,!0,q,q,q,q,q,q),q),C.a6,new E.a51(a)),q,q,q,q,q,q,new V.ag(20,0,20,20),s),M.bC(q,D.mB(L.ai("Igraj...",q,q,q,q,A.dc(q,q,C.j,q,q,q,q,q,q,q,q,q,q,q,q,q,!0,q,q,q,q,q,q),q),C.a6,new E.a52(a)),q,q,q,q,q,q,new V.ag(20,0,20,20),s)],t.t),C.aG,C.eI,C.b6),q),q)}}
 E.a4Z.prototype={
 $1:function(a){var s=this.a
 K.c2(s,!1).e_(null)
