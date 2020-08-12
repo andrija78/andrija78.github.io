@@ -57,7 +57,7 @@ const RESOURCES = {
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
 "index.html": "fc1a19916789b5f016606e19d102b495",
 "/": "fc1a19916789b5f016606e19d102b495",
-"main.dart.js": "47e453014cce78894fccb7173ce56b98",
+"main.dart.js": "0292cff24f2228bc45ce0861bf089a2d",
 "manifest.json": "34ce20b934ade9c43d4c1a9140614d9b",
 "mcts_js/src/common/appSync.js": "923e15080a4d7692fb200b16ada1c6a3",
 "mcts_js/src/common/convert.js": "1e5c2a06471eefc257563d51d411162a",
@@ -70,7 +70,7 @@ const RESOURCES = {
 "mcts_js/src/common/monte-carlo-node.js": "8ebeaa5d243955a9dc95c97aed50feb8",
 "mcts_js/src/common/monte-carlo.js": "dea852bcd9e98138077c5b04e9296c12",
 "mcts_js/src/event.json": "97f8e847998c21d4cbabcc1ef4b2e97d",
-"mcts_js/src/index.js": "44d1d7d7a588755e9abdc956e60e1973",
+"mcts_js/src/index.js": "c70af2358242c7c1568812125f95da1d",
 "mcts_js/src/package-lock.json": "28f3fbb74948ca149458ba12daaa2d68",
 "mcts_js/src/package.json": "d620b4a49e3265fe405b91be22248c7c",
 "mcts_js/src/random/game-treseta4-random.js": "d57171fdb2f47c62c2453f93e3a9029e",
@@ -81,7 +81,7 @@ const RESOURCES = {
 "mcts_js/src/treseta4/index.js": "41296ed1dcd6a273578dbe7a8ef47d51",
 "mcts_js/src/treseta4/play-treseta4.js": "d4a9d34e3bcdb6c6698901913c4825c7",
 "mcts_js/src/treseta4/state-treseta4.js": "ddd0f458182f850903f7978057b36a39",
-"mcts_js/worker.js": "ccaed34f64b3343f7501fb922023c8fc"
+"mcts_js/worker.js": "87e89c3535ca38ac7ccfcf475bd58e79"
 };
 
 // The application shell files that are downloaded before a service worker can
