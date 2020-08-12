@@ -57,8 +57,9 @@ const RESOURCES = {
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
 "index.html": "9d482c5e54ca0990d6f343d2cc1b06cb",
 "/": "9d482c5e54ca0990d6f343d2cc1b06cb",
-"main.dart.js": "d56f4a8d31887703041d05f6dce44040",
+"main.dart.js": "609a921fdfa932ba8b5fc7b66e3d376a",
 "manifest.json": "34ce20b934ade9c43d4c1a9140614d9b",
+"mcts_js/main.bundle.js": "8dfdf88a90f8014c360d355e2a9a57ce",
 "mcts_js/src/common/convert.js": "1e5c2a06471eefc257563d51d411162a",
 "mcts_js/src/common/monte-carlo-2.js": "426e4397bfa4176dc30e8dc83a6895bb",
 "mcts_js/src/common/monte-carlo-3.js": "bb602be6b1ccf0a102a4d971f3fbeb77",
@@ -79,7 +80,7 @@ const RESOURCES = {
 "mcts_js/src/treseta4/play-treseta4.js": "d4a9d34e3bcdb6c6698901913c4825c7",
 "mcts_js/src/treseta4/state-treseta4.js": "ddd0f458182f850903f7978057b36a39",
 "mcts_js/worker.js": "bc82a3a5a1475269ab791d083b0eda47",
-"mcts_js/worker_bundle.js": "bc82a3a5a1475269ab791d083b0eda47"
+"mcts_js/worker_bundle.js": "3f89a87dcbdb2dbdaf16efe680d4e8f0"
 };
 
 // The application shell files that are downloaded before a service worker can
