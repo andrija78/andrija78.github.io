@@ -3,7 +3,7 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "assets/AssetManifest.json": "147e5193f384b38888d6b43fa6a3cd7f",
+  "assets/AssetManifest.json": "8b7035f62891046483067aba4ccd023b",
 "assets/assets/back-r.jpg": "52a184995093bf66be65c8af9aa1ceb7",
 "assets/assets/back.jpg": "bc94f9b0b6af033fca94447afc30bb0b",
 "assets/assets/BACK_BACK.jpg": "bc94f9b0b6af033fca94447afc30bb0b",
@@ -50,6 +50,7 @@ const RESOURCES = {
 "assets/assets/SPADE_TRICA.jpg": "61270b986dd2678a79b6f980c3c36ac0",
 "assets/FontManifest.json": "01700ba55b08a6141f33e168c4a6c22f",
 "assets/fonts/MaterialIcons-Regular.ttf": "56d3ffdef7a25659eab6a68a3fbfaf16",
+"assets/lib/mcts_js/worker.js": "ccaed34f64b3343f7501fb922023c8fc",
 "assets/NOTICES": "7d90fa3e2a2eeb116107812b156da179",
 "assets/packages/cupertino_icons/assets/CupertinoIcons.ttf": "115e937bb829a890521f72d2e664b632",
 "favicon.png": "5dcef449791fa27946b3d35ad8803796",
@@ -57,7 +58,7 @@ const RESOURCES = {
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
 "index.html": "fc1a19916789b5f016606e19d102b495",
 "/": "fc1a19916789b5f016606e19d102b495",
-"main.dart.js": "dbdcacea33d9306546cc2380402213f8",
+"main.dart.js": "e3c745391205b18f9eb26f5bc4f1407c",
 "manifest.json": "34ce20b934ade9c43d4c1a9140614d9b"
 };
 
