@@ -59989,7 +59989,11 @@ if(s.d){$.aU.z$.push(new E.a5_(a))
 return M.fX(E.fv(q,q,q,L.ai("Redirecting...",q,q,q,q,q,q)),q,q)}r=F.bw(a,!1).a
 s.a.toString
 s=r.a
+<<<<<<< HEAD
 return M.fX(E.fv(q,q,q,L.ai("Treseta. Version: 0.5.0+17",q,q,q,q,q,q)),new T.cB(C.u,q,q,T.lF(H.a([M.bC(q,D.mA(L.ai("Kreiraj racun",q,q,q,q,A.dc(q,q,C.j,q,q,q,q,q,q,q,q,q,q,q,q,q,!0,q,q,q,q,q,q),q),C.a6,new E.a50(a)),q,q,q,q,q,q,new V.ag(20,0,20,20),s),M.bC(q,D.mA(L.ai("Potvrdi racun",q,q,q,q,A.dc(q,q,C.j,q,q,q,q,q,q,q,q,q,q,q,q,q,!0,q,q,q,q,q,q),q),C.a6,new E.a51(a)),q,q,q,q,q,q,new V.ag(20,0,20,20),s),M.bC(q,D.mA(L.ai("Prijava",q,q,q,q,A.dc(q,q,C.j,q,q,q,q,q,q,q,q,q,q,q,q,q,!0,q,q,q,q,q,q),q),C.a6,new E.a52(a)),q,q,q,q,q,q,new V.ag(20,0,20,20),s),M.bC(q,D.mA(L.ai("Igraj...",q,q,q,q,A.dc(q,q,C.j,q,q,q,q,q,q,q,q,q,q,q,q,q,!0,q,q,q,q,q,q),q),C.a6,new E.a53(a)),q,q,q,q,q,q,new V.ag(20,0,20,20),s)],t.t),C.aG,C.eI,C.b6),q),q)}}
+=======
+return M.fX(E.fv(q,q,q,L.ai("Treseta. Version: 0.5.0+16",q,q,q,q,q,q)),new T.cB(C.u,q,q,T.lF(H.a([M.bC(q,D.mA(L.ai("Kreiraj racun",q,q,q,q,A.dc(q,q,C.j,q,q,q,q,q,q,q,q,q,q,q,q,q,!0,q,q,q,q,q,q),q),C.a6,new E.a50(a)),q,q,q,q,q,q,new V.ag(20,0,20,20),s),M.bC(q,D.mA(L.ai("Potvrdi racun",q,q,q,q,A.dc(q,q,C.j,q,q,q,q,q,q,q,q,q,q,q,q,q,!0,q,q,q,q,q,q),q),C.a6,new E.a51(a)),q,q,q,q,q,q,new V.ag(20,0,20,20),s),M.bC(q,D.mA(L.ai("Prijava",q,q,q,q,A.dc(q,q,C.j,q,q,q,q,q,q,q,q,q,q,q,q,q,!0,q,q,q,q,q,q),q),C.a6,new E.a52(a)),q,q,q,q,q,q,new V.ag(20,0,20,20),s),M.bC(q,D.mA(L.ai("Igraj...",q,q,q,q,A.dc(q,q,C.j,q,q,q,q,q,q,q,q,q,q,q,q,q,!0,q,q,q,q,q,q),q),C.a6,new E.a53(a)),q,q,q,q,q,q,new V.ag(20,0,20,20),s)],t.t),C.aG,C.eI,C.b6),q),q)}}
+>>>>>>> 167df8132aebf90f222d329be92491faf43fd5c0
 E.a5_.prototype={
 $1:function(a){var s=this.a
 K.c2(s,!1).e_(null)
