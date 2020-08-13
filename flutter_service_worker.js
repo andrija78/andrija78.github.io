@@ -58,7 +58,7 @@ const RESOURCES = {
 "index.html": "9d482c5e54ca0990d6f343d2cc1b06cb",
 "/": "9d482c5e54ca0990d6f343d2cc1b06cb",
 "index_apks.html": "fba48067344db82399ff8c1c40ca621c",
-"main.dart.js": "8f64a4a3e87416d4e1d10c7c370a789b",
+"main.dart.js": "c097a2b22db3fc159a00142d0061e7c4",
 "manifest.json": "34ce20b934ade9c43d4c1a9140614d9b",
 "mcts_js/main.bundle.js": "473fb1769019bb15692d6de9f480919b",
 "mobile_apps/app-arm64-v8a-release.apk": "ed560865820a4f67b7e54108ffc668fd",
