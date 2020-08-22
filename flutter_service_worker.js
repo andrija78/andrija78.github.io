@@ -48,22 +48,18 @@ const RESOURCES = {
 "assets/assets/SPADE_SEDMINA.jpg": "8f388e2655fff4a66a279f99db7f99ae",
 "assets/assets/SPADE_SESTINA.jpg": "876a41c3a0cff03a24595b6d522cdad1",
 "assets/assets/SPADE_TRICA.jpg": "61270b986dd2678a79b6f980c3c36ac0",
-"assets/FontManifest.json": "01700ba55b08a6141f33e168c4a6c22f",
-"assets/fonts/MaterialIcons-Regular.ttf": "56d3ffdef7a25659eab6a68a3fbfaf16",
-"assets/NOTICES": "7d90fa3e2a2eeb116107812b156da179",
+"assets/FontManifest.json": "dc3d03800ccca4601324923c0b1d6d57",
+"assets/fonts/MaterialIcons-Regular.otf": "a68d2a28c526b3b070aefca4bac93d25",
+"assets/NOTICES": "9af993e0d5fb43ea8c4bd2eca1d24bfb",
 "assets/packages/cupertino_icons/assets/CupertinoIcons.ttf": "115e937bb829a890521f72d2e664b632",
 "favicon.png": "5dcef449791fa27946b3d35ad8803796",
 "icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
 "index.html": "9d482c5e54ca0990d6f343d2cc1b06cb",
 "/": "9d482c5e54ca0990d6f343d2cc1b06cb",
-"index_apks.html": "fba48067344db82399ff8c1c40ca621c",
-"main.dart.js": "c097a2b22db3fc159a00142d0061e7c4",
+"main.dart.js": "201c012ae25009bf23b457dde9080b1d",
 "manifest.json": "34ce20b934ade9c43d4c1a9140614d9b",
-"mcts_js/main.bundle.js": "473fb1769019bb15692d6de9f480919b",
-"mobile_apps/app-arm64-v8a-release.apk": "ed560865820a4f67b7e54108ffc668fd",
-"mobile_apps/app-armeabi-v7a-release.apk": "fbcfb69657a4a86724f24f8704a6d48d",
-"mobile_apps/app-x86_64-release.apk": "536a4cf0c380da4871c64be4cc94d12f"
+"mcts_js/main.bundle.js": "1fc8d0d02bfb2ec6475b05015e1329c0"
 };
 
 // The application shell files that are downloaded before a service worker can
@@ -80,8 +76,8 @@ const CORE = [
 self.addEventListener("install", (event) => {
   return event.waitUntil(
     caches.open(TEMP).then((cache) => {
-      // Provide a no-cache param to ensure the latest version is downloaded.
-      return cache.addAll(CORE.map((value) => new Request(value, {'cache': 'no-cache'})));
+      // Provide a 'reload' param to ensure the latest version is downloaded.
+      return cache.addAll(CORE.map((value) => new Request(value, {'cache': 'reload'})));
     })
   );
 });
@@ -164,7 +160,7 @@ self.addEventListener("fetch", (event) => {
         // Either respond with the cached resource, or perform a fetch and
         // lazily populate the cache. Ensure the resources are not cached
         // by the browser for longer than the service worker expects.
-        var modifiedRequest = new Request(event.request, {'cache': 'no-cache'});
+        var modifiedRequest = new Request(event.request, {'cache': 'reload'});
         return response || fetch(modifiedRequest).then((response) => {
           cache.put(event.request, response.clone());
           return response;
