@@ -61082,11 +61082,11 @@ if(r<s.b){s.b=r
 s.a=a}},
 $S:58}
 F.abX.prototype={
-$1:function(a){var s,r,q,p="eu-west-1_LbFC9TB9B",o=new U.Qf()
+$1:function(a){var s,r,q,p="eu-west-1_N30vMXOJx",o=new U.Qf()
 o.a=p
-o.b="2r5voeg0gce20jp75fbeqb3dkp"
+o.b="65uul8voc1l6f94fmbbd8aijcl"
 s=P.bW("^[\\w-]+_.+$",!0)
-if(!s.b.test("eu-west-1_LbFC9TB9B"))H.J(P.aM("Invalid userPoolId format."))
+if(!s.b.test("eu-west-1_N30vMXOJx"))H.J(P.aM("Invalid userPoolId format."))
 r=o.d=p.split("_")[0]
 q=new U.Q0()
 q.c=r
@@ -61510,7 +61510,7 @@ if(s!=null)return L.ag("Error: "+H.a(s),m,m,m,m,m,m)
 r=F.bm(a,!1).a
 s=this.a
 s.a.toString
-q=E.hM(m,m,m,L.ag("Tre\u0161eta. Verzija: 0.6.0 (23.08.2020)",m,m,m,m,m,m))
+q=E.hM(m,m,m,L.ag("Tre\u0161eta. Verzija: 0.6.0+2 (23.08.2020)",m,m,m,m,m,m))
 p=t.t
 o=H.b([],p)
 o.push(new R.nn(m))
