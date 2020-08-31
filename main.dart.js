@@ -60415,7 +60415,7 @@ var $async$po=P.A(function(b,c){if(b===1)return P.B(c,r)
 while(true)switch(s){case 0:p=new P.Y($.X,t.d)
 o=new Worker("../mcts_js/main.bundle.js")
 W.bC(o,"message",new U.UM(q,a,o,new P.ap(p,t.zh)),!1,t.Iy)
-C.Hp.a59(o,C.r.c0(P.F(["algorithm","mcts","state",R.aiq(R.auS(a))],t.X,t._)))
+C.Hp.a59(o,C.r.c0(P.F(["algorithm","mcts-3","state",R.aiq(R.auS(a))],t.X,t._)))
 s=2
 return P.p(p,$async$po)
 case 2:return P.C(null,r)}})
@@ -60828,85 +60828,90 @@ a55:function(a,b,c,d,e,f){return this.eW(a,null,0,b,c,d,e,f)},
 a54:function(a,b,c,d,e,f){return this.eW(a,b,c,d,null,e,null,f)},
 a56:function(a2,a3,a4,a5,a6,a7,a8,a9){var s=0,r=P.E(t.z),q,p=this,o,n,m,l,k,j,i,h,g,f,e,d,c,b,a,a0,a1
 var $async$eW=P.A(function(b0,b1){if(b0===1)return P.B(b1,r)
-while(true)switch(s){case 0:d={}
-c=$.X
-b=t.d
-a=new P.Y(c,b)
-a0=t.zh
-c=new P.ap(new P.Y(c,b),a0)
-p.a.w(0,new Q.nE(new P.ap(a,a0),c))
-d.a=null
-s=3
-return P.p(a,$async$eW)
-case 3:a=$.X
-o=new P.ap(new P.Y(a,b),a0)
-n=new P.ap(new P.Y(a,b),a0)
-a=new P.Y(a,b)
-m=new P.ap(a,a0)
-l=a4===0
-k=p.e
-s=l?4:6
+while(true)switch(s){case 0:c={}
+b=$.X
+a=t.d
+a0=new P.Y(b,a)
+a1=t.zh
+b=new P.ap(new P.Y(b,a),a1)
+p.a.w(0,new Q.nE(new P.ap(a0,a1),b))
+c.a=null
+o=a4===0
+s=o?3:5
 break
-case 4:k.w(0,Q.Ow(a2,null,o,m,n,null,0,null,a6,a8,"playCard",null))
-a1=d
-s=7
+case 3:s=6
 return P.p(p.z.fu(0,p.ch,a4,"playCard",new E.vL(a2,a9,a7,a5)),$async$eW)
-case 7:j=a1.a=b1
-s=!j.b?8:9
+case 6:n=b1
+c.a=n
+m=n
+s=4
 break
-case 8:s=10
-return P.p(a,$async$eW)
-case 10:s=11
+case 5:m=null
+case 4:s=7
+return P.p(a0,$async$eW)
+case 7:a0=$.X
+l=new P.ap(new P.Y(a0,a),a1)
+k=new P.ap(new P.Y(a0,a),a1)
+a0=new P.Y(a0,a)
+j=new P.ap(a0,a1)
+i=p.e
+s=o?8:10
+break
+case 8:i.w(0,Q.Ow(a2,null,l,j,k,null,a4,null,a6,a8,"playCard",null))
+s=!m.b?11:12
+break
+case 11:s=13
+return P.p(a0,$async$eW)
+case 13:s=14
 return P.p(p.rh("Potez nije dozvoljen!!!"),$async$eW)
-case 11:n.c9(0)
-o.c9(0)
-c.c9(0)
+case 14:k.c9(0)
+l.c9(0)
+b.c9(0)
 s=1
 break
-case 9:i=j.f
-h=i.d
-if(h!==-1){g=h-a4
-i.d=g<0?g+p.x.y.a:g}i=j
-s=5
+case 12:h=m.f
+g=h.d
+if(g!==-1){f=g-a4
+h.d=f<0?f+p.x.y.a:f}s=9
 break
-case 6:d.a=a3
-k.w(0,Q.Ow(a3.e.a,null,o,m,n,null,a3.c,null,null,a8,"playCard",null))
-i=a3
-case 5:s=12
-return P.p(a,$async$eW)
-case 12:a=i.f.d
-s=a!==-1?13:15
+case 10:c.a=a3
+i.w(0,Q.Ow(a3.e.a,null,l,j,k,null,a3.c,null,null,a8,"playCard",null))
+m=a3
+case 9:s=15
+return P.p(a0,$async$eW)
+case 15:a0=m.f.d
+s=a0!==-1?16:18
 break
-case 13:i=$.X
-h=new P.Y(i,b)
-f=new P.ap(new P.Y(i,b),a0)
-b=p.x.y.a
-k.w(0,Q.Ow(null,P.fy(b,new R.a1E(d,p),!0,t.D2),o,new P.ap(h,a0),f,b,null,n,null,null,"collectCards",a))
-s=16
+case 16:m=$.X
+h=new P.Y(m,a)
+e=new P.ap(new P.Y(m,a),a1)
+a=p.x.y.a
+i.w(0,Q.Ow(null,P.fy(a,new R.a1E(c,p),!0,t.D2),l,new P.ap(h,a1),e,a,null,k,null,null,"collectCards",a0))
+s=19
 return P.p(h,$async$eW)
-case 16:n=f
-e=!0
-s=14
-break
-case 15:e=!1
-case 14:d=p.x=d.a.r
+case 19:k=e
+d=!0
 s=17
-return P.p(p.nP(d,!l&&d.e.c.a==a4?!0:e),$async$eW)
-case 17:n.c9(0)
-o.c9(0)
-s=p.x.gBY()?18:19
 break
-case 18:s=20
+case 18:d=!1
+case 17:c=p.x=c.a.r
+s=20
+return P.p(p.nP(c,!o&&c.e.c.a==a4?!0:d),$async$eW)
+case 20:k.c9(0)
+l.c9(0)
+s=p.x.gBY()?21:22
+break
+case 21:s=23
 return P.p(p.nW(),$async$eW)
-case 20:case 19:s=p.x.gBX()?21:22
+case 23:case 22:s=p.x.gBX()?24:25
 break
-case 21:d=p.x
-d=d==null?null:d.gpd()
-d=d==null?null:d[p.x.e.c.a]
-b=p.x.e
-s=23
-return P.p(p.nV(d,b.a[b.c.a].b),$async$eW)
-case 23:case 22:c.c9(0)
+case 24:c=p.x
+c=c==null?null:c.gpd()
+c=c==null?null:c[p.x.e.c.a]
+a=p.x.e
+s=26
+return P.p(p.nV(c,a.a[a.c.a].b),$async$eW)
+case 26:case 25:b.c9(0)
 case 1:return P.C(q,r)}})
 return P.D($async$eW,r)},
 t:function(a){var s=this
@@ -61510,7 +61515,7 @@ if(s!=null)return L.ag("Error: "+H.a(s),m,m,m,m,m,m)
 r=F.bm(a,!1).a
 s=this.a
 s.a.toString
-q=E.hM(m,m,m,L.ag("Tre\u0161eta. Verzija: 0.6.0+2 (23.08.2020)",m,m,m,m,m,m))
+q=E.hM(m,m,m,L.ag("Tre\u0161eta. Verzija: 0.6.1 (31.08.2020)",m,m,m,m,m,m))
 p=t.t
 o=H.b([],p)
 o.push(new R.nn(m))
