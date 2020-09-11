@@ -50,16 +50,16 @@ const RESOURCES = {
 "assets/assets/SPADE_TRICA.jpg": "61270b986dd2678a79b6f980c3c36ac0",
 "assets/FontManifest.json": "dc3d03800ccca4601324923c0b1d6d57",
 "assets/fonts/MaterialIcons-Regular.otf": "a68d2a28c526b3b070aefca4bac93d25",
-"assets/NOTICES": "9af993e0d5fb43ea8c4bd2eca1d24bfb",
-"assets/packages/cupertino_icons/assets/CupertinoIcons.ttf": "115e937bb829a890521f72d2e664b632",
+"assets/NOTICES": "f1a4e39a29149219c0eba0f1d836477c",
+"assets/packages/cupertino_icons/assets/CupertinoIcons.ttf": "b14fcf3ee94e3ace300b192e9e7c8c5d",
 "favicon.png": "5dcef449791fa27946b3d35ad8803796",
 "icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
 "index.html": "9d482c5e54ca0990d6f343d2cc1b06cb",
 "/": "9d482c5e54ca0990d6f343d2cc1b06cb",
-"main.dart.js": "2c7b81976bdde81605b885de37344f79",
+"main.dart.js": "11240178b01b654feaac5fd21d2cae9d",
 "manifest.json": "34ce20b934ade9c43d4c1a9140614d9b",
-"mcts_js/main.bundle.js": "d9e424f5a06c2ce269da3a41b809faa1"
+"mcts_js/main.bundle.js": "3f778d0f791c70abac917eb762cc8228"
 };
 
 // The application shell files that are downloaded before a service worker can
